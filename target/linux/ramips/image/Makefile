@@ -557,6 +557,8 @@ Image/Build/Profile/3G150B=$(call BuildFirmware/Default4M/$(1),$(1),3g150b,3G150
 
 Image/Build/Profile/MR102N=$(call BuildFirmware/Default8M/$(1),$(1),mr-102n,MR-102N)
 
+Image/Build/Profile/LOCATOR=$(call BuildFirmware/Default8M/$(1),$(1),locator,LOCATOR,Linux Kernel Image)
+
 Image/Build/Profile/MPRA1=$(call BuildFirmware/Default4M/$(1),$(1),mpr-a1,MPRA1,Linux Kernel Image)
 Image/Build/Profile/MPRA2=$(call BuildFirmware/Default8M/$(1),$(1),mpr-a2,MPRA2,Linux Kernel Image)
 
@@ -734,6 +736,7 @@ define Image/Build/Profile/Default
 	$(call Image/Build/Profile/M4,$(1))
 	$(call Image/Build/Profile/MOFI3500-3GN,$(1))
 	$(call Image/Build/Profile/MR102N,$(1))
+	$(call Image/Build/Profile/LOCATOR,$(1))
 	$(call Image/Build/Profile/MPRA1,$(1))
 	$(call Image/Build/Profile/MPRA2,$(1))
 	$(call Image/Build/Profile/MZKW300NH2,$(1))

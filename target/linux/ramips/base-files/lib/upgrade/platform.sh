@@ -69,6 +69,7 @@ platform_check_image() {
 	mofi3500-3gn | \
 	mpr-a1 | \
 	mpr-a2 | \
+	locator | \
 	mr-102n | \
 	mzk-w300nh2 | \
 	nbg-419n | \

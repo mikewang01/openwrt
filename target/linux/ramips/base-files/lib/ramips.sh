@@ -199,6 +199,9 @@ ramips_board_detect() {
 	*"HAME MPR-A2")
  		name="mpr-a2"
  		;;
+	*"HICLING LOCATOR")
+ 		name="locator"
+ 		;;
 	*"Kingston MLW221")
 		name="mlw221"
 		;;
